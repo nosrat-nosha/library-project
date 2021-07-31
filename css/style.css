@@ -341,3 +341,52 @@ color: #03256C;
  /* ==================== */
 /* Student-registration page  */
 /* ==================== */
+
+/* login-body */
+.login-body{
+	height: 248rem;
+	width: 132rem;
+	margin-top: 30rem;
+	background: #B8C6E2;
+}
+.login-button-active{
+	background: #03256C;
+	color:#fff;
+	padding: 1rem;
+	width:13rem ;
+	font-size:2rem;
+}
+.login-button{
+	background: #fff;
+	color:#03256C;
+	padding: 1rem;
+	width:13rem ;
+	font-size:2rem;
+	border: .1rem solid #03256C;
+}
+ /* =====================
+ Registration responsive
+ ========================  */
+ @media (max-width:688px){
+	.login-body{
+		height: 248rem;
+		width: 132rem;
+		margin-top: 30rem;
+		background: #B8C6E2;
+	}
+	.login-button-active{
+		background: #03256C;
+		color:#fff;
+		padding: 1rem;
+		width:13rem ;
+		font-size:2rem;
+	}
+	.login-button{
+		background: #fff;
+		color:#03256C;
+		padding: 1rem;
+		width:13rem ;
+		font-size:2rem;
+		border: .1rem solid #03256C;
+	}
+ }
