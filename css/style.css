@@ -8,433 +8,497 @@
 /* font family */
 /* @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 	*/
-	html{
-		font-size: 62.5%;
-		overflow-x: hidden;
-	}
+html {
+	font-size:62.5%;
+	overflow-x:hidden;
+}
 body {
 	font-family:'Poppins',sans-serif;
-	overflow-x: hidden;
-	
+	overflow-x:hidden;
 }
 /* ==================== */
-/* landing page  */
+/* landing page */
 /* ==================== */
 /* header-top */
-.opacity-header{
-	background-color: white;
-	opacity: 0.7;
-	height: 40%;
+.opacity-header {
+	background-color:white;
+	opacity:0.7;
+	height:40%;
 }
-.opacity-bottom{
-	background: white;
-	opacity: 0.7;
-	margin-top: -6.0rem;
+.opacity-bottom {
+	background:white;
+	opacity:0.7;
+	margin-top:-6.0rem;
+}
+.header-text {
+	color:#03256C;
+	text-shadow:.2rem .2rem .5rem gray;
+	font-size:4rem;
+	font-weight:700;
 }
 
-.header-text{
-	color:#03256C ;
-	text-shadow: .2rem .2rem .5rem gray;
-	font-size: 4rem;
-	font-weight: 700;
+.search-box {
+	margin-top:-8rem;
+	background-color:white;
 }
-:placeholder {
-	color: pink;
-	opacity: 1;
-  }
-.search-box{
-    margin-top: -8rem;
-	background-color: white;
-}
-.button-class{
+.button-class {
 	background-color:#03256C;
-	color: #ffff;
-	
+	color:#ffff;
 }
-.container-header{
-	background-image: url(/images/library.jpg);
-	background-repeat: no-repeat;
-    background-size: cover;
-	height: 50rem;
-} 
-/* header second part  */
-.div1-background{
-	background-color: #B8C6E2;
-	margin-top: -.5rem;
+.container-header {
+	background-image:url(/images/library.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	height:50rem;
 }
-.div1-background,.text-color1{
-	color:#03256C ;
-	font-weight: bolder;
+/* header second part */
+.div1-background {
+	background-color:#B8C6E2;
+	margin-top:-.5rem;
 }
-.div2-background{
-	background-color: #1E6F5C;
-	margin-top: -1.1rem;
+.div1-background,.text-color1 {
+	color:#03256C;
+	font-weight:bolder;
 }
-.div2-background,.text-color2{
-	color:#fff ;
-	font-weight: bolder;
+.div2-background {
+	background-color:#1E6F5C;
+	margin-top:-1.1rem;
 }
-/* third header part  */
-.text-color3{
-	color:#03256C ;
-	font-size: 4.5rem;
-	font-weight: 700;
+.div2-background,.text-color2 {
+	color:#fff;
+	font-weight:bolder;
 }
-.text-color4{
-	color:#03256C ;
-	
+/* third header part */
+.text-color3 {
+	color:#03256C;
+	font-size:4.5rem;
+	font-weight:700;
 }
-.blank-background{
-	background: #B8C6E2;
+.text-color4 {
+	color:#03256C;
+}
+.blank-background {
+	background:#B8C6E2;
 	height:15rem;
-	margin-top: 10rem;
+	margin-top:10rem;
 }
 /* exploring section in landing page */
-.exploring-section{
-	background-color: #1E6F5C;
+.exploring-section {
+	background-color:#1E6F5C;
 }
-.text-color5{
-	font-size: 3.5rem;
-	font-weight: 700;
-	
+.text-color5 {
+	font-size:3.5rem;
+	font-weight:700;
 }
-.explore-button{
-	background-color:#03256C ;
-
+.explore-button {
+	background-color:#03256C;
 }
-/* Main section  */
-.main{
+/* Main section */
+.main {
 	background-color:#B8C6E2;
 }
-/* event section  */
-.event-background{
-	background: linear-gradient(70deg, rgb(230, 227, 227),rgb(199, 245, 245));
-	
-  /* background: conic-gradient(from 70deg, red, orange 50%, yellow 85%, white); */
-
+/* event section */
+.event-background {
+	background:linear-gradient(70deg,rgb(230,227,227),rgb(199,245,245));
+	/* background:conic-gradient(from 70deg,red,orange 50%,yellow 85%,white);
+	*/
 }
-	.event-text{
-		color:#03256C ;
-		font-weight: bolder;
-		
-	}
-	.event-left-side-bg{
-		background:linear-gradient(#03256C ,#1E6F5C);
-		
-		height: 33rem;
-	}
-	.event-right-side-bg1{
-		background:linear-gradient(#03256C ,#1E6F5C);
-		height: 16rem;
-		margin-bottom: 1.1rem;
-	}
-	
-	/* corona  */
-	.corona{
-		background-image: url(/images/corona.jpg);
-		background-repeat: no-repeat;
-		background-size: cover;
-		height: 30rem;
-	}
-	.corona-text{
-		background-color: #B8C6E2;
-		opacity: 0.6;
-		color: #03256C;
-		font-weight: bolder;
-		margin-top: 10rem;
-	}
-	.button-div{
-		margin-left: 17rem;
-	}
-	.corona-button{
-		background-color: #03256C;
-
-	}
+.event-text {
+	color:#03256C;
+	font-weight:bolder;
+}
+.event-left-side-bg {
+	background:linear-gradient(#03256C,#1E6F5C);
+	height:33rem;
+}
+.event-right-side-bg1 {
+	background:linear-gradient(#03256C,#1E6F5C);
+	height:16rem;
+	margin-bottom:1.1rem;
+}
+/* corona */
+.corona {
+	background-image:url(/images/corona.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	height:30rem;
+}
+.corona-text {
+	background-color:#B8C6E2;
+	opacity:0.6;
+	color:#03256C;
+	font-weight:bolder;
+	margin-top:10rem;
+}
+.button-div {
+	margin-left:17rem;
+}
+.corona-button {
+	background-color:#03256C;
+}
 /*=========== Landing responsive ==========*/
 @media (max-width:688px) {
-	html{
-		font-size: 55%;
-	} 
-	.container-header{
-		background-image: url(/images/library.jpg);
-		background-repeat: no-repeat;
-		background-size: cover;
-		height: 70rem;
-	} 
-	.search-box{
-		margin-top: -8rem;
-		background-color: white;
-		
-	}
-	.button-class{
-		background-color:#03256C;
-		color: #ffff;
-	}
-	.explore-button{
-		background-color:#03256C ;
-		margin-left: 4rem;
-	
-	}
-	.corona-button{
-		background-color:#03256C ;
-		margin-left: 4rem;
-	
-	}
+	html {
+	font-size:55%;
 }
-
-	
-	/* @media (max-width:688px) {
-		html{
-			font-size: 55%;
-		} 
-	} */
-
-	/* ==================== */
-/* explore page  */
+.container-header {
+	background-image:url(/images/library.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	height:70rem;
+}
+.search-box {
+	margin-top:-8rem;
+	background-color:white;
+}
+.button-class {
+	background-color:#03256C;
+	color:#ffff;
+}
+.explore-button {
+	background-color:#03256C;
+	margin-left:4rem;
+}
+.corona-button {
+	background-color:#03256C;
+	margin-left:4rem;
+}
+}
+/* @media (max-width:688px) {
+	html {
+	font-size:55%;
+}
+}
+*/
 /* ==================== */
-
-/* header part  */
-.container-explore{
-background-image: url(/images/open-book-icon-19.png);
-background-repeat: no-repeat;
-height: 47rem;
-    margin-left: 40rem;
-    margin-top: 1rem;
-    opacity: 0.2;
+/* explore page */
+/* ==================== */
+/* header part */
+.container-explore {
+	background-image:url(/images/open-book-icon-19.png);
+	background-repeat:no-repeat;
+	height:47rem;
+	margin-left:40rem;
+	margin-top:1rem;
+	opacity:0.2;
 }
-.about-libray{
-	font-size: 6rem;
-	font-weight: 700;
-	margin-top: -24rem;
-	color:#03256C ;
+.about-libray {
+	font-size:6rem;
+	font-weight:700;
+	margin-top:-24rem;
+	color:#03256C;
 }
-/* we are section  */
-.we-are-section{
-	background:#03256C ;
-	height: 10rem;}
-.we-are{
-	font-weight: 900;
-	text-decoration : none;
-	font-size: 3rem;}
-.who-we a{
+/* we are section */
+.we-are-section {
+	background:#03256C;
+	height:10rem;
+}
+.we-are {
+	font-weight:900;
+	text-decoration:none;
+	font-size:3rem;
+}
+.who-we a {
 	font-weight:bolder;
-	text-decoration : none;
-	font-size: 4rem;
-	color:#03256C ;
+	text-decoration:none;
+	font-size:4rem;
+	color:#03256C;
 }
-.who-we p{
-	font-size: 1.5rem;
-	color:#03256C ;
+.who-we p {
+	font-size:1.5rem;
+	color:#03256C;
 }
-.who-we hr{
-	color: #071e4e;
-height: 0.2rem;
+.who-we hr {
+	color:#071e4e;
+	height:0.2rem;
 }
 /* gallery */
-.gallery-col{
-	height: 60rem;
+.gallery-col {
+	height:60rem;
 }
-.gallery{
-	
+.gallery {
 }
-/* motto section  */
-.motto-section a{
+/* motto section */
+.motto-section a {
 	font-weight:bolder;
-	text-decoration : none;
-	font-size: 3rem;
-	color:#03256C ;
+	text-decoration:none;
+	font-size:3rem;
+	color:#03256C;
 }
-.motto-section p{
-	color: #03256C;
-	font-size: 1.5rem;
-	margin-top: -54rem;
-	margin-bottom: 0rem;
+.motto-section p {
+	color:#03256C;
+	font-size:1.5rem;
+	margin-top:-54rem;
+	margin-bottom:0rem;
 }
-
 /*=========== Explore responsive ==========*/
-
 @media (max-width:688px) {
-	html{
-		font-size: 55%;
-	}
-	/* header part  */
-.container-explore{
-background-image: url(/images/open-book-icon-19.png);
-background-repeat: no-repeat;
-width: 61rem;
-	
-	margin-left: -6rem;
-    margin-top: 3rem;
-	margin-bottom: 7rem;
-    opacity: 0.2;
+	html {
+	font-size:55%;
 }
-.about-libray{
-	margin-top: -35rem;
-	font-size: 6rem;
-	font-weight: 700;
-	
+/* header part */
+.container-explore {
+	background-image:url(/images/open-book-icon-19.png);
+	background-repeat:no-repeat;
+	width:61rem;
+	margin-left:-6rem;
+	margin-top:3rem;
+	margin-bottom:7rem;
+	opacity:0.2;
 }
-	/* we are section  */
-	.we-are-section{
-		background:#03256C ;
-		height: 25rem;}
-	/* values section  */
-	.values-section{
-		margin-top:65rem ;
-	
-	}
-	
+.about-libray {
+	margin-top:-35rem;
+	font-size:6rem;
+	font-weight:700;
+}
+/* we are section */
+.we-are-section {
+	background:#03256C;
+	height:25rem;
+}
+/* values section */
+.values-section {
+	margin-top:65rem;
+}
 }
 /* ==================== */
-/* Home  page after login */
+/* Home page after login */
 /* ==================== */
-.search-dropdown{
-	margin-bottom: 12rem;
+.search-dropdown {
+	margin-bottom:12rem;
 }
-.search-dropdown button{
-	background-color: #B8C6E2;
+.search-dropdown button {
+	background-color:#B8C6E2;
 	color:#03256C;
 }
 .search-dropdown button ul {
-color: #03256C;
-}
-.dropdown-menu{
-	background-color:#B8C6E2; 
 	color:#03256C;
 }
-.dropdown-menu a{
-	background-color:#B8C6E2; 
+.dropdown-menu {
+	background-color:#B8C6E2;
+	color:#03256C;
+}
+.dropdown-menu a {
+	background-color:#B8C6E2;
 	color:#03256C;
 }
 /* slider header */
-.slider-h1{
+.slider-h1 {
 	color:#fff;
 	background-color:#03256C;
-	
 }
-.carousul-col{
-	margin-bottom: -1rem;	
+.carousul-col {
+	margin-bottom:-1rem;
 }
-/* slider  */
-.slider-bg{
-	background-color: #B8C6E2;
+/* slider */
+.slider-bg {
+	background-color:#B8C6E2;
 }
- /* gono publication  */
- .publication-img{
-	 background-image: url(/images/class-room.jpg);
-	 background-repeat: no-repeat;
-	 background-position: center;
-	 background-size: cover;
-	 height:25rem;
-	
- }
- .publication-text{
-	 background: #03256C;
-	 opacity: 0.5;
-	 
- }
- /* library-collection */
- .library-collection{
-	
-	 background:linear-gradient(#03256C ,#1E6F5C);
- }
- /* ==================== */
-/* Student-registration page  */
+/* gono publication */
+ .publication-img {
+	background-image:url(/images/class-room.jpg);
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:cover;
+	height:25rem;
+}
+.publication-text {
+	background:#03256C;
+	opacity:0.5;
+}
+/* library-collection */
+ .library-collection {
+	background:linear-gradient(#03256C,#1E6F5C);
+}
 /* ==================== */
-
+/* Student-registration page */
+/* ==================== */
 /* login-body */
-.login-body{
-	height: 248rem;
-	width: 100rem;
-	height: 150rem;
-	margin-top: 30rem;
-	background: #B8C6E2;
+.login-body {
+	height:248rem;
+	width:100rem;
+	height:150rem;
+	margin-top:30rem;
+	background:#B8C6E2;
 }
-.login-button-active{
-	background: #03256C;
+.login-button-active {
+	background:#03256C;
 	color:#fff;
-	padding: 1rem;
-	width:18rem ;
+	padding:1rem;
+	width:18rem;
 	font-size:2rem;
 }
-.login-button{
-	background: #fff;
+.login-button-active a {
+	text-decoration: none;
+	color:#fff;
+}
+.login-button {
+	background:#fff;
 	color:#03256C;
-	padding: 1rem;
-	width:18rem ;
+	padding:1rem;
+	width:18rem;
 	font-size:2rem;
-	border: .1rem solid #03256C;
+	border:.1rem solid #03256C;
 }
-.login-names{
-color:#03256C;	
+.login-button a {
+	text-decoration: none;
+	color:#03256C;
 }
-.login-button-submit{
-	background: #03256C;
+.login-names {
+	color:#03256C;
+}
+.login-button-submit {
+	background:#03256C;
 	color:#fff;
-	padding: 1rem;
-	width:13rem ;
+	padding:1rem;
+	width:13rem;
 	font-size:2rem;
 }
 .login-title {
-	margin-right: 4rem;
-	
+	margin-right:4rem;
 }
-.input { 
-	background-image: url(/images/icon/gallery.png);
-	
-	
-	background-repeat: no-repeat;
-	background-size: contain;
-	
-	
-	
-  }
-.bottom-title{
+.input {
+	background-image:url(/images/icon/gallery.png);
+	background-repeat:no-repeat;
+	background-size:contain;
+}
+.bottom-title {
 	color:#03256C;
-	margin-top: 5rem;
+	margin-top:5rem;
 }
-.form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-	color: #072057;
-	
-	font-weight: bold;
-	opacity: 0.5; /* Firefox */
+
+.form-control::placeholder {
+	/* Chrome,Firefox,Opera,Safari 10.1+ */
+color:#072057;
+	font-weight:bold;
+	opacity:0.5;
+	/* Firefox */
 }
 .dropdown-option {
-	height: rem;
-	margin-left: -5rem;
-	margin-top: 1rem;
+	height:rem;
+	margin-left:-5rem;
+	margin-top:1rem;
 }
- /* =====================
- Registration responsive
- ========================  */
- @media (max-width:688px){
-	.login-body{
-		height: 220rem;
-		width: 40rem;
-		height: 200rem;
-		margin-top: 30rem;
-		background: #B8C6E2;
+/* ===================== Registration responsive ======================== */
+ @media (max-width:688px) {
+	.login-body {
+	height:220rem;
+	width:40rem;
+	height:200rem;
+	margin-top:30rem;
+	background:#B8C6E2;
+}
+.login-button-active {
+	background:#03256C;
+	color:#fff;
+	padding:1rem;
+	width:10rem;
+	font-size:2rem;
+}
+.login-button {
+	background:#fff;
+	color:#03256C;
+	padding:1rem;
+	width:10rem;
+	font-size:2rem;
+	border:.1rem solid #03256C;
+}
+.bottom-title {
+	color:#03256C;
+	margin-top:5rem;
+	margin-right:5rem;
+}
+}
+/* ==================== */
+/* registration choose page */
+/* ==================== */
+/* regitration-body */
+.regitration-choose-body {
+	height:50rem;
+	width:100rem;
+	margin-top:30rem;
+	background:#B8C6E2;
+}
+.regitration-choose-name{
+	margin-top: 10rem;
+}
+/* ===================== Registration responsive ======================== */
+@media (max-width:688px){
+	.regitration-choose-body {
+		height:50rem;
+		width:37rem;
+		margin-top:30rem;
+		background:#B8C6E2;
 	}
-	
-	.login-button-active{
-		background: #03256C;
-		color:#fff;
-		padding: 1rem;
-		width:10rem ;
-		font-size:2rem;
+	.regitration-choose-name{
+		margin-top: 10rem;
 	}
-	.login-button{
-		background: #fff;
-		color:#03256C;
-		padding: 1rem;
-		width:10rem ;
-		font-size:2rem;
-		border: .1rem solid #03256C;
-	}
-	.bottom-title{
-		color:#03256C;
-		margin-top: 5rem;
-		margin-right: 5rem;
-	}
- }
- 
+}
+/* ==================== */
+/* log_in page */
+/* ==================== */
+.log_in{
+background: #B8C6E2;
+}
+.log_in-title{
+    margin-top: 10rem;
+}
+.log_in-body{
+    height:50rem;
+	width:100rem;
+	margin-top:30rem;
+	background:#fff;
+}
+.log_in-text{
+    color:#03256C ;
+}
+.log_in-btn-color{
+    background: #03256C;
+    color: #fff;
+}
+/* ===================== log_in responsive ======================== */
+@media (max-width:688px){
+    .log_in-body {
+        height: 48rem;
+        width: 36rem;
+        margin-top: 30rem;
+        background: #fff;
+    }
+}
+/* ==================== */
+/* after_click-log_in page */
+/* ==================== */
+.after-click-log_in-body{
+    height:100rem;
+	width:100rem;
+	margin-top:20rem;
+	background:#fff;
+}
+.after-click-log_in-body hr{
+    color: #071e4e;
+    height: .3rem;
+    width: 80rem;
+    opacity: .9;
+   
+    margin-bottom:-10rem ;
+}
+input[type="checkbox"] {
+    appearance: radio; /* Chrome, Safari, Opera */
+    
+}
+/* =====================After check in log_in responsive ======================== */
+@media (max-width:688px){
+    .after-click-log_in-body {
+        height: 110rem;
+        width: 38rem;
+        margin-top: 30rem;
+        background: #fff;
+    }
+    .after-click-log_in-body hr{
+        color: #03256C;
+        height: .3rem;
+        width: 30rem;
+       
+        margin-bottom: -13rem;
+    }
+}
