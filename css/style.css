@@ -502,3 +502,44 @@ input[type="checkbox"] {
         margin-bottom: -13rem;
     }
 }
+/* ==================== */
+/* staf page */
+/* ==================== */
+.staf{
+	
+}
+.font-icon{
+	color:#1E6F5C;
+}
+.title{
+color:#03256C;
+}
+.sub-title{
+color:#1E6F5C;
+}
+.hr-border{
+	height: .3rem !important;
+	color:#03256C;
+	opacity: 1;
+	
+}
+/* ==================== */
+/* EBOOK page */
+/* ==================== */
+.icon{
+	margin-top: 7rem;
+	width: 1rem;
+	margin-left:.1rem ;
+}
+.font-size{
+
+padding: 0;
+margin-left: -.5rem;
+}
+.font-color-blue{
+	color: #03256C;
+}
+.font-color-green{
+	color:#1E6F5C;
+}
+
